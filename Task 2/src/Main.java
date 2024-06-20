@@ -8,7 +8,7 @@ public class Main {
         //Если число четное, то печатаем true, если не четное, печатаем false
         //В методе main НЕ ДОПУСТИМО написание какого либо кода, кроме вызова методов.
         //Методы и их логику продумайте сами
-        a = inputInt();
+        inputInt();
         System.out.println(checkParity(a));
     }
 
@@ -16,8 +16,7 @@ public class Main {
         return a % 2 == 0;
     }
 
-    private static int inputInt() {
-        Scanner sc = new Scanner(System.in);
-        return sc.nextInt();
+    private static void inputInt() {
+        a = new Scanner(System.in).nextInt();
     }
 }

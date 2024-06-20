@@ -46,8 +46,6 @@ public class Main {
 
     private static double inputDouble() {
         //todo дописать логику
-        Scanner sc = new Scanner(System.in);
-
-        return sc.nextDouble();
+        return new Scanner(System.in).nextDouble();
     }
 }
